@@ -1,7 +1,7 @@
 print("Calculator")
-num1 = float(input("Enter your first number: ")
-Operator = input("Enter your operator: ")
-num2 = float(input("Enter your second number: ")
+num1 = float(input("Enter your first number: "))
+Operator = float(input("Enter your operator: "))
+num2 = float(input("Enter your second number: "))
 if Operator == "+":
   print(num1 + num2)
 elif Operator == "-":
