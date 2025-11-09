@@ -1,0 +1,11 @@
+print("Guess what number I'm thinking")
+number = 33
+guess = input("Guess the number: ")
+while guess != number:
+    guess = int(input("Guess again: "))
+    if guess < number:
+        print("too low!")
+    if guess > number:
+        print("too high!")
+while guess == number:
+    print("Guessed correctly! Congrats!")
