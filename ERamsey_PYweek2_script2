@@ -1,7 +1,7 @@
 # Problem is simple tip calculation
 print("Tip Calculator")
 bill = float(input("How much was your bill?: "))
-tip = float(input("What percentage do you want to tip: "))
+tip = float(input("What percentage do you want to tip?: "))
 Tip = (tip / 100)
 if Tip == 0:
   print(bill)
