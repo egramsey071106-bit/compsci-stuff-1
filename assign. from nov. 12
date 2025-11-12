@@ -3,7 +3,7 @@ print("Tip Calculator")
 tip = float(input("How much do you want to tip? (enter as decimal): "))
 bill = float(input("How much was your bill?: "))
 if tip == 0:
-  print("bill")
+  print(bill)
 elif tip != 0:
-  print("bill + bill * tip")
+  print(bill + bill * tip)
   
