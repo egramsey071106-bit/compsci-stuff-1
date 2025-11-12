@@ -6,5 +6,8 @@ Tip = (tip / 100)
 if Tip == 0:
   print(bill)
 elif Tip != 0:
-  print("You total is " bill + bill * Tip)
+  print("tip amount: ")
+  print(bill * Tip)
+  print("Total bill amount: ")
+  print(bill + bill * Tip)
 
